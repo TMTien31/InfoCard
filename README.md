@@ -1,5 +1,5 @@
 # Tran Minh Tien
-![z4808238327047_c43d4f3cdb58f6ef26edb6bc0f8334bf]([[https://github.com/MTienBeo/mtienbeo.github.io/assets/146120128/265e97dd-de7e-4db4-9730-a8bd5257ec5ch](https://github.com/MTienBeo/mtienbeo.github.io/assets/146120128/cd82ee98-ba36-402b-9b44-41cd22231e8a)])
+![z4808238327047_c43d4f3cdb58f6ef26edb6bc0f8334bf]([https://github.com/MTienBeo/mtienbeo.github.io/assets/146120128/265e97dd-de7e-4db4-9730-a8bd5257ec5ch])
 
 
 ## Contact
