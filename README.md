@@ -1,8 +1,6 @@
 # Tran Minh Tien
 
-![](https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/370252956_356773607079664_4845391710304894152_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=1LQmcotFY7AAX8WBXpv&_nc_ht=scontent.fsgn5-14.fna&oh=03_AdTVdQzwnVlsQASQTO0I0H5b9arhMcalZSkCX-noDwz55g&oe=657D2C60)
-
-https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/370252956_356773607079664_4845391710304894152_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=1LQmcotFY7AAX8WBXpv&_nc_ht=scontent.fsgn5-14.fna&oh=03_AdTVdQzwnVlsQASQTO0I0H5b9arhMcalZSkCX-noDwz55g&oe=657D2C60
+![](https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/369269230_1064064638253376_1212027936001927795_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=X9AxyJ4HtPoAX8kNOMH&_nc_ht=scontent.fsgn5-14.fna&oh=03_AdR7s8HnHCpkvjHPruEvk5If_mc709N5BlEsqsT3PmFtow&oe=657D5F93)
 
 
 ## Contact
