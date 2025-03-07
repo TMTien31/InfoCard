@@ -10,13 +10,17 @@
             font-family: 'Pacifico', cursive;
             text-align: center;
             background-color: #ffe6f2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             overflow: hidden;
             position: relative;
         }
         h1 {
             color: #e60073;
             font-size: 32px;
-            margin-top: 20px;
         }
         #input-container {
             margin: 20px auto;
@@ -62,7 +66,7 @@
             width: 50px;
             height: 50px;
             background: url('https://cdn-icons-png.flaticon.com/128/9427/9427529.png') no-repeat center/contain;
-            animation: riseBubble 6s linear forwards;
+            animation: riseBubble 10s linear forwards;
         }
         @keyframes riseBubble {
             0% { transform: translateY(0); opacity: 1; }
@@ -71,21 +75,42 @@
     </style>
 </head>
 <body>
-    <h1>Chúc mừng ngày Quốc tế Phụ nữ 8/3 ❤️</h1>
+    <h1>Chúc mừng ngày Quốc tế Phụ nữ 8/3</h1>
     <div id="input-container">
-        <input type="text" id="nameInput" placeholder="Nhập tên của bạn...">
-        <button onclick="showMessage()">Nhận lời chúc ở đây nhé</button>
+        <input type="text" id="nameInput" placeholder="Nhập tên của người xinh nhất thế gian vào nè">
+        <button onclick="nextMessage()">Nhận lời chúc ở đây nhe</button>
     </div>
     <div id="message"></div>
     <script>
-        function showMessage() {
-            let name = document.getElementById('nameInput').value;
+        let messages = [
+            "I love 3 things in this world",
+            "Sun, Moon and you",
+            "Sun for morning",
+            "Moon for night",
+            "And...",
+            "You forever",
+            "Chúc {name} 8/3 vui vẻ, tràn đầy sức khỏe, học thật tốt và luôn hạnh phúc bên những người mình yêu thương nhaa <3"
+        ];
+        let step = 0;
+        function nextMessage() {
+            let name = document.getElementById('nameInput').value.trim();
+            if (name === "") {
+                document.getElementById('message').innerHTML = "Nhập tên để nhận lời chúc nhaa";
+                return;
+            }
             let messageDiv = document.getElementById('message');
-            if (name.trim() !== "") {
-                messageDiv.innerHTML = `Chúc ${name} 8/3 vui vẻ, tràn đầy sức khỏe, học thật tốt và luôn hạnh phúc bên những người mình yêu thương nhaa ❤️`;
+            let button = document.querySelector("button");
+            
+            if (step < messages.length) {
+                let msg = messages[step].replace("{name}", name);
+                messageDiv.innerHTML = msg;
+                button.innerHTML = "Xem tiếp điii";
+                step++;
                 createBubbles();
             } else {
-                messageDiv.innerHTML = "Nhập tên để nhận lời chúc nhaa!";
+                step = 0;
+                button.innerHTML = "Nhận lời chúc";
+                messageDiv.innerHTML = "";
             }
         }
         function createBubbles() {
@@ -94,8 +119,8 @@
                 bubble.className = 'bubble';
                 document.body.appendChild(bubble);
                 bubble.style.left = Math.random() * window.innerWidth + 'px';
-                bubble.style.animationDuration = (Math.random() * 3 + 5) + 's';
-                setTimeout(() => { bubble.remove(); }, 7000);
+                bubble.style.animationDuration = (Math.random() * 5 + 5) + 's';
+                setTimeout(() => { bubble.remove(); }, 10000);
             }
         }
     </script>
